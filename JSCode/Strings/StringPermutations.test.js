@@ -13,4 +13,4 @@ describe("String Permutation", () => {
     it("Should return false if strings are not permutations of each other", () => {
         expect(strMatchCheck("god", "dogs")).toBe(false);
     });
-})
+});
